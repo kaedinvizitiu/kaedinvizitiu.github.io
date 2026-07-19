@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#102833"/>
+  <text x="9" y="42" fill="#f5f3ed" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="-2">KV</text>
+  <circle cx="53" cy="42" r="3" fill="#d8b99f"/>
+</svg>
