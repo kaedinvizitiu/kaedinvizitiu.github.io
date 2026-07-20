@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Kaedin Vizitiu" }],
   openGraph: {
-    title: "Kaedin Vizitiu | Learning boldly. Leading intentionally.",
+    title: "Kaedin Vizitiu's Personal Portfolio",
     description:
       "Business student and emerging leader exploring entrepreneurship, finance, AI, and service.",
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kaedin Vizitiu | Learning boldly. Leading intentionally.",
+    title: "Kaedin Vizitiu's Personal Portfolio",
     description:
       "Business student and emerging leader exploring entrepreneurship, finance, AI, and service.",
     images: ["/kaedin-og-card.jpg"],
