@@ -473,7 +473,7 @@ ul {
 }
 
 .featured-card {
-  grid-template-columns: 74px minmax(0, 1.2fr) minmax(190px, 0.55fr);
+  grid-template-columns: 54px minmax(0, 1.2fr) minmax(190px, 0.55fr);
 }
 
 .featured-card .card-main h3 {
