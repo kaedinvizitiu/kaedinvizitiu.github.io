@@ -476,6 +476,11 @@ ul {
   grid-template-columns: 74px minmax(0, 1.2fr) minmax(190px, 0.55fr);
 }
 
+.featured-card .card-main h3 {
+  font-size: clamp(26px, 2.6vw, 46px);
+  white-space: nowrap;
+}
+
 .card-number {
   padding-top: 5px;
   color: var(--earth);
@@ -525,16 +530,12 @@ ul {
 
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: clamp(30px, 5vw, 70px);
+  grid-template-columns: 1fr;
+  gap: 0;
 }
 
 .experience-grid .experience-card {
   grid-template-columns: 54px 1fr;
-}
-
-.experience-grid .project-card {
-  grid-column: 1 / -1;
 }
 
 .understated-card {
@@ -912,6 +913,18 @@ a:focus-visible {
 }
 
 @media (max-width: 420px) {
+  .featured-card {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-card .card-main h3 {
+    font-size: 18px;
+  }
+
+  .featured-card .skill-list {
+    grid-column: 1;
+  }
+
   .hero h1 {
     font-size: 45px;
   }

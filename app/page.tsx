@@ -179,7 +179,7 @@ export default function Home() {
               </div>
             </article>
 
-            <article className="experience-card project-card">
+            <article className="experience-card">
               <div className="card-number">04</div>
               <div className="card-main">
                 <p className="card-kicker">Independent project · 2026–Present</p>
