@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss" source(none);
 
 :root {
   --ink: #17313d;
@@ -531,6 +531,10 @@ ul {
 
 .experience-grid .experience-card {
   grid-template-columns: 54px 1fr;
+}
+
+.experience-grid .project-card {
+  grid-column: 1 / -1;
 }
 
 .understated-card {

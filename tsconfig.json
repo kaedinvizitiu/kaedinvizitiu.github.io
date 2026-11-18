@@ -32,9 +32,11 @@
   ],
   "exclude": [
     "node_modules",
+    ".pnpm-store",
     "build",
     "db",
     "examples",
+    "what-should-we-do",
     "worker",
     "drizzle.config.ts"
   ]

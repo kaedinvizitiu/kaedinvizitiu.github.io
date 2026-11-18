@@ -34,6 +34,9 @@ test("server-renders Kaedin's portfolio", async () => {
   assert.match(html, /Leading intentionally/);
   assert.match(html, /Serving faithfully/);
   assert.match(html, /California Baptist University/);
+  assert.match(html, /Handshake AI/);
+  assert.match(html, /Financial Tracker/);
+  assert.match(html, /Finance/);
   assert.match(html, /kaedinvizitiu@icloud\.com/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });

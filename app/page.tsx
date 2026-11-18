@@ -169,12 +169,26 @@ export default function Home() {
             <article className="experience-card understated-card">
               <div className="card-number">03</div>
               <div className="card-main">
-                <p className="card-kicker">AI training · 2026–Present</p>
-                <h3>Expanding My Perspective</h3>
+                <p className="card-kicker">Handshake AI · Apr–Sep 2026</p>
+                <h3>AI Trainer</h3>
                 <p>
-                  Part-time AI training work has added a practical view of emerging
-                  technology, careful evaluation, and the way human judgment shapes
-                  useful tools.
+                  Evaluated AI-generated responses for factual accuracy, clarity,
+                  and alignment with user intent, then revised model inputs and
+                  documented error patterns to support refinement.
+                </p>
+              </div>
+            </article>
+
+            <article className="experience-card project-card">
+              <div className="card-number">04</div>
+              <div className="card-main">
+                <p className="card-kicker">Independent project · 2026–Present</p>
+                <h3>Financial Tracker</h3>
+                <p>
+                  Building an AI-powered investment research platform that analyzes
+                  individual equities, generates investment forecasts, and supports
+                  data-driven portfolio decisions through dedicated research,
+                  analysis, and portfolio-management agents.
                 </p>
               </div>
             </article>
@@ -197,8 +211,8 @@ export default function Home() {
             <dd>Entrepreneurship</dd>
           </div>
           <div>
-            <dt>Minor</dt>
-            <dd>Christian Studies</dd>
+            <dt>Minors</dt>
+            <dd>Finance &amp; Christian Studies</dd>
           </div>
           <div>
             <dt>Expected</dt>
